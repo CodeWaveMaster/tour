@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Тури</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="scripts.js" defer></script>
+    <script src="data.js"></script>
+</head>
+<body>
+
+  <div id="tours-container"></div>
+
+  <div id="order-modal" class="modal">
+    <div class="modal-content">
+      <h3>Замовлення туру</h3>
+      <p id="selected-tour"></p>
+      <form id="order-form">
+        <input type="text" id="name" name="name" placeholder="Ваше ім'я" required>
+        <input type="email" id="email" name="email" placeholder="Ваш email" required>
+        <input type="hidden" id="tour-name" name="tourName">
+        <button type="submit">Замовити</button>
+      </form>
+    </div>
+  </div>
+</body>
+</html>

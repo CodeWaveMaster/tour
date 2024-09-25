@@ -1,0 +1,65 @@
+const tours = [
+    {
+      name: "Maldives Adventure Tour",
+      hotelName: "Harmony Hotel",
+      hotelStars: 5,
+      price: 556,
+      rate: 4.9,
+      numOfReviews: 4,
+      daysDuration: 5,
+      tourImg: "tour-list-2-1-365x248.jpg",
+    },
+    {
+      name: "Lake Como Family Tour",
+      hotelName: "Ritz Hotel",
+      hotelStars: 5,
+      price: 756,
+      oldPrice: 1000,
+      rate: 4.1,
+      numOfReviews: 5,
+      daysDuration: 7,
+      tourImg: "tour-list-2-2-365x248.jpg",
+    },
+    {
+      name: "Brisbane & Cairns Tour",
+      hotelName: "Hilton Hotel",
+      hotelStars: 5,
+      price: 690,
+      rate: 5.0, // виправлено з 5.5
+      numOfReviews: 6,
+      daysDuration: 6,
+      tourImg: "tour-list-2-5-365x248.jpg",
+    },
+    {
+      name: "Journey to Italy",
+      hotelName: "Radison Blue Hotel",
+      hotelStars: 5,
+      price: 690,
+      rate: 5.0, // виправлено з 5.2
+      numOfReviews: 2,
+      daysDuration: 6,
+      tourImg: "tour-list-2-3-365x248.jpg",
+    },
+    {
+      name: "Private Charters for Surfers",
+      hotelName: "Even Hotel",
+      hotelStars: 4,
+      price: 615,
+      oldPrice: 1000,
+      rate: 4.8, // виправлено з 5.8
+      numOfReviews: 7,
+      daysDuration: 13,
+      tourImg: "tour-list-2-4-365x248.jpg",
+    },
+    {
+      name: "Adventures in Greece",
+      hotelName: "Renaissance Hotel",
+      hotelStars: 5,
+      price: 680,
+      rate: 4.8,
+      numOfReviews: 3,
+      daysDuration: 3,
+      tourImg: "tour-list-2-6-365x248.jpg",
+    },
+  ];
+  
